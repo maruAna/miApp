@@ -1,0 +1,523 @@
+{
+    "propuestas":[
+       {
+        "id":"1",
+        "titulo":"COCINERO PROFESIONAL CON CERTIFICACION UNIVERSITARIA",
+        "imagen":"http://redmilenium.com.ar/cloudy/propuestas/2012092112hs42min57seg_img.jpg",
+        "descripcion":"Una carrera profesional, basadas en las técnicas y tecnología de la cocina moderna, nacional e internacional, para quienes quieran introducirse de lleno en todos los secretos del arte culinario.",
+        "duracion":"2 años",
+        "cant_materias":"20",
+        "horas_cursado":"500",
+        "planes_de_pago":["Contado $1150","10 cuotas de $1450", "12 cuotas de $1300"],
+        "plan_de_estudio": [
+           {
+            "anio":"1",
+            "nombre":"COCINA I",
+            "docente":"Hernandez, Hector",
+            "turno":"Lunes 15:00 - 17:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"PASTELERIA",
+            "docente":"Rodriguez, Diego",
+            "turno":"Lunes 17:00 - 19:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"COCINA LATINOAMERICANA",
+            "docente":"Fernandez, Juan",
+            "turno":"Martes 15:00 - 17:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"BUFET I",
+            "docente":"Vera, Daniel",
+            "turno":"Martes 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"PASTAS Y SALSAS",
+            "docente":"Robles, Bruno",
+            "turno":"Miércoles 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"PANADERIA I",
+            "docente":"Ale, Julian",
+            "turno":"Miércoles 17:00 - 19:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"HIGIENE Y BROMATOLOGIA",
+            "docente":"Ortega, Orlando",
+            "turno":"Jueves 13:00 - 15:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"ENOLOGIA",
+            "docente":"Trimarco, Hernan",
+            "turno":"Jueves 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"NUTRICION",
+            "docente":"Gonzalez, Javier",
+            "turno":"Viernes 13:00 - 15:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"QUIMICA CULINARIA",
+            "docente":"Ramirez, Pedro",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COCINA II",
+            "docente":"Gonzalez, Javier",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COCINA INTERNACIONAL",
+            "docente":"Cordoba, Francisco",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ALTA PASTELERIA",
+            "docente":"Diaz, Francisco",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ALTA PANADERIA",
+            "docente":"Graneros, Luis",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"BUFET II",
+            "docente":"Contreras, Raul",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ORGANIZACION DE EVENTOS",
+            "docente":"Padua, Milagros",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COSTOS GASTRONOMICOS",
+            "docente":"Mayorga, Patricio",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"MARKETING GASTRONOMICO",
+            "docente":"Azar, Walter",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"MANAGMENT GASTRONOMICO",
+            "docente":"Reyes, Karina",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"TESIS FINAL",
+            "docente":"Ruiz, Jorge",
+            "turno":"Viernes 17:00 - 19:00"
+            }
+            
+        ],
+        "plan_de_pago":[
+          {
+            "concepto":"Matricula",
+            "fecha_1er_vto":"10/03/2016",
+            "importe_1er_vto":"845",
+            "fecha_2er_vto":"10/03/2016",
+            "importe_2er_vto":"845",
+            "fecha_3er_vto":"10/03/2016",
+            "importe_3er_vto":"845",
+            "fecha_4er_vto":"10/03/2016",
+            "importe_4er_vto":"845"
+          },
+          {
+            "concepto":"Cuota Marzo",
+            "fecha_1er_vto":"10/03/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/03/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/03/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/03/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Abril",
+            "fecha_1er_vto":"10/04/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/04/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/04/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/04/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Mayo",
+            "fecha_1er_vto":"10/05/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/05/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/05/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/05/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Junio",
+            "fecha_1er_vto":"10/06/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/06/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/06/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/06/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Julio",
+            "fecha_1er_vto":"10/07/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/07/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/07/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/07/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Agosto",
+            "fecha_1er_vto":"10/08/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/08/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/08/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/08/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Septiembre",
+            "fecha_1er_vto":"10/09/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/09/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/09/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/09/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Octubre",
+            "fecha_1er_vto":"10/10/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/10/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/10/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/10/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Noviembre",
+            "fecha_1er_vto":"10/11/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/11/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/11/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/11/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Diciembre",
+            "fecha_1er_vto":"10/12/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/12/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/12/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/12/2016",
+            "importe_4er_vto":"1600"
+          }
+
+
+      ]
+   },
+    {
+        "id":"1",
+        "titulo":"COCINERO PROFESIONAL CON CERTIFICACION UNIVERSITARIA",
+        "imagen":"http://redmilenium.com.ar/cloudy/propuestas/2012092112hs42min57seg_img.jpg",
+        "descripcion":"Una carrera profesional, basadas en las técnicas y tecnología de la cocina moderna, nacional e internacional, para quienes quieran introducirse de lleno en todos los secretos del arte culinario.",
+        "duracion":"2 años",
+        "cant_materias":"20",
+        "horas_cursado":"500",
+        "planes_de_pago":["Contado $1150","10 cuotas de $1450", "12 cuotas de $1300"],
+        "plan_de_estudio": [
+           {
+            "anio":"1",
+            "nombre":"COCINA I",
+            "docente":"Hernandez, Hector",
+            "turno":"Lunes 15:00 - 17:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"PASTELERIA",
+            "docente":"Rodriguez, Diego",
+            "turno":"Lunes 17:00 - 19:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"COCINA LATINOAMERICANA",
+            "docente":"Fernandez, Juan",
+            "turno":"Martes 15:00 - 17:00 hs"
+            },
+            {
+            "anio":"1",
+            "nombre":"BUFET I",
+            "docente":"Vera, Daniel",
+            "turno":"Martes 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"PASTAS Y SALSAS",
+            "docente":"Robles, Bruno",
+            "turno":"Miércoles 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"PANADERIA I",
+            "docente":"Ale, Julian",
+            "turno":"Miércoles 17:00 - 19:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"HIGIENE Y BROMATOLOGIA",
+            "docente":"Ortega, Orlando",
+            "turno":"Jueves 13:00 - 15:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"ENOLOGIA",
+            "docente":"Trimarco, Hernan",
+            "turno":"Jueves 15:00 - 17:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"NUTRICION",
+            "docente":"Gonzalez, Javier",
+            "turno":"Viernes 13:00 - 15:00"
+            },
+            {
+            "anio":"1",
+            "nombre":"QUIMICA CULINARIA",
+            "docente":"Ramirez, Pedro",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COCINA II",
+            "docente":"Gonzalez, Javier",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COCINA INTERNACIONAL",
+            "docente":"Cordoba, Francisco",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ALTA PASTELERIA",
+            "docente":"Diaz, Francisco",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ALTA PANADERIA",
+            "docente":"Graneros, Luis",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"BUFET II",
+            "docente":"Contreras, Raul",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"ORGANIZACION DE EVENTOS",
+            "docente":"Padua, Milagros",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"COSTOS GASTRONOMICOS",
+            "docente":"Mayorga, Patricio",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"MARKETING GASTRONOMICO",
+            "docente":"Azar, Walter",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"MANAGMENT GASTRONOMICO",
+            "docente":"Reyes, Karina",
+            "turno":"Viernes 17:00 - 19:00"
+            },
+            {
+            "anio":"2",
+            "nombre":"TESIS FINAL",
+            "docente":"Ruiz, Jorge",
+            "turno":"Viernes 17:00 - 19:00"
+            }
+            
+        ],
+        "plan_de_pago":[
+          {
+            "concepto":"Matricula",
+            "fecha_1er_vto":"10/03/2016",
+            "importe_1er_vto":"845",
+            "fecha_2er_vto":"10/03/2016",
+            "importe_2er_vto":"845",
+            "fecha_3er_vto":"10/03/2016",
+            "importe_3er_vto":"845",
+            "fecha_4er_vto":"10/03/2016",
+            "importe_4er_vto":"845"
+          },
+          {
+            "concepto":"Cuota Marzo",
+            "fecha_1er_vto":"10/03/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/03/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/03/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/03/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Abril",
+            "fecha_1er_vto":"10/04/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/04/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/04/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/04/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Mayo",
+            "fecha_1er_vto":"10/05/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/05/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/05/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/05/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Junio",
+            "fecha_1er_vto":"10/06/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/06/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/06/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/06/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Julio",
+            "fecha_1er_vto":"10/07/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/07/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/07/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/07/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Agosto",
+            "fecha_1er_vto":"10/08/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/08/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/08/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/08/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Septiembre",
+            "fecha_1er_vto":"10/09/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/09/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/09/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/09/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Octubre",
+            "fecha_1er_vto":"10/10/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/10/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/10/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/10/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Noviembre",
+            "fecha_1er_vto":"10/11/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/11/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/11/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/11/2016",
+            "importe_4er_vto":"1600"
+          },
+          {
+            "concepto":"Cuota Diciembre",
+            "fecha_1er_vto":"10/12/2016",
+            "importe_1er_vto":"1450",
+            "fecha_2er_vto":"15/12/2016",
+            "importe_2er_vto":"1500",
+            "fecha_3er_vto":"20/12/2016",
+            "importe_3er_vto":"1550",
+            "fecha_4er_vto":"25/12/2016",
+            "importe_4er_vto":"1600"
+          }
+
+
+      ]
+   }
+
+   ]
+}
+
+         
