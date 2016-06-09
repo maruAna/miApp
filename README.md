@@ -19,17 +19,16 @@ Configuración basica de gulp para iniciar proyecto utilizando Angularjs
 
 - [Instalar Git (necesario para instalar dependencias)](https://git-scm.com/download/win)
 
-´´´
-> Luego de instalar git crear un directorio e inicializar git en dicho directorio
 ```
+> Luego de instalar git crear un directorio e inicializar git en dicho directorio
+
+
 //ejemplo
 C:\mkdir proyecto
 C:\cd proyecto
 C:\git init
 C:\git clone https://github.com/juan41285/angular-gulp.git
-
 ```
-´´´
 ### Instalar global
 ```
 $ npm install -g stylus

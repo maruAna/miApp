@@ -413,7 +413,21 @@
         }
 
 
-    ]
+    ],
+
+  "alumnos":[
+        {
+           "nombre":"Raul",
+           "apellido":"Diaz Solis",
+           "dni":"12345678",
+           "telefono":"3815123654",
+           "domicilio":"Savedra 129",
+           "localidad":"San Miguel de Tucumán",
+           "foto": "https://avatars3.githubusercontent.com/u/2073511?v=3&s=460"
+
+
+        }
+   ]
 }
 
          
