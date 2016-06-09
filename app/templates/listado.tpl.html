@@ -1,4 +1,11 @@
+			
 			<div class="shadow-z-1 fondo-blanco ">
+			<!-- <label for="">Elija una sede</label> -->
+			<button class="btn btn-warning btn-raised">Todas las sedes</button>
+			<button class="btn btn-default btn-raised">Tucumán Capital</button>
+			<button class="btn btn-default btn-raised">Concepción</button>
+			<button class="btn btn-default btn-raised">Aguilares</button>
+			<button class="btn btn-default btn-raised">Tafí del Valle</button>
 			<!-- Caja que contiene la informacion de la propuesta -->
 			<div class="propuesta-box" ng-repeat="propuesta in propuestas">
 			  <div class="row">
@@ -12,11 +19,17 @@
 			  		<h3>{{propuesta.titulo}}</h3>
 			  	<!-- descripcion -->
 			  	<p>{{propuesta.descripcion}}</p>
+			  	<ul>
+			  		<li>Duración: <strong>{{propuesta.duracion}}</strong></li>
+			  		<li>Cantidad de materias del curso: <strong>{{propuesta.cant_materias}}</strong></li>
+			  		<li>Sedes: <strong>Capital, Aguilares</strong></li>
+			  		
+			  	</ul>
 			  	<!-- planes de pago -->
 			  	<a href="#" class="btn btn-info">{{propuesta.planes_de_pago[0]}}</a>
 			  	<a href="#" class="btn btn-success">{{propuesta.planes_de_pago[1]}}</a>
 			  	<a href="#" class="btn btn-primary">{{propuesta.planes_de_pago[2]}}</a>
-			  	<a href="#/detalle/{{propuesta.id}}" class="btn btn-warning">Más detalles</a>
+			  	<a href="#/detalle" class="btn btn-warning" ng-click="Detalles(id)">Más detalles</a>
 			  	</div>
 			  </div>
 			</div>	

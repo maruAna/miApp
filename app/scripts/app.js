@@ -7,7 +7,7 @@
   function config ($routeProvider) {
    
     $routeProvider
-      .when('/', {
+      .when('/listado', {
         templateUrl: 'templates/menu-nav.tpl.html',
         controller: 'WizardCtrl'
       })
@@ -15,7 +15,7 @@
      
      
 
-      .otherwise({ reditrectTo : '/' });
+      .otherwise({ reditrectTo : '/listado' });
 
   } 
 

@@ -74,6 +74,27 @@ h3{
     top: 50%;
     z-index: 1;
 }
+
+.box-plan{
+	background: #D1D1D1;
+	padding: 20px;
+}
+
+.box-plan select  {
+	font-size: 1.2em !important;
+}
+
+.pago1{
+	background: #f1f1f1;
+}
+
+.pago2{
+	background: #fff;
+}
+
+.pago3{
+	background: #f1f1f1;
+}
 .board .nav-tabs { position: relative; /* border-bottom: 0; */ /* width: 80%; */ margin: 40px auto; margin-bottom: 0; box-sizing: border-box; } .board > div.board-inner{ background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png); background-size: 30%; } p.narrow{ width: 60%; margin: 10px auto; } 
 
 

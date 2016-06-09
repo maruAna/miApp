@@ -4,7 +4,10 @@
 // Controlador
   function WizardCtrl($scope,$http, $routeParams) {
 
-  $scope.template = {'nav': 'templates/menu-nav.tpl.html','step1': 'templates/listado.tpl.html','step2': 'templates/detalles.tpl.html'};
+  $scope.template = {'nav': 'templates/menu-nav.tpl.html',
+                    'step1': 'templates/listado.tpl.html',
+                    'step2': 'templates/detalles.tpl.html',
+                    'step3': 'templates/plan-pagos.tpl.html'};
  
     /*************LEER JSON************/
   
@@ -21,7 +24,7 @@
 
   // $scope.id = $routeParams.id - 1; //resto uno para que se corresponda con la posicion en el array
   // console.log('posicion del array: ' + $scope.id);
-    /*************LEER JSON************/
+    /*************LEER JSON - POR OBJETO************/
   
          $scope.detalle = [];
           $http.get('propuestas.json')
