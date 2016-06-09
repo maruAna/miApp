@@ -10,6 +10,16 @@ Configuración basica de gulp para iniciar proyecto utilizando Angularjs
 - Bootstrap Material
 
 ## Instalación
+### Software adicional para Windows
+
+
+- [instalar node y npm ](https://nodejs.org/en/)
+> verificar instalación correctar escribiendo node -v en consola.
+> Si no inicia el command line agregar en variables de entorno PAHT la carpeta bin de la instalación de node 
+
+- [Instalar Git (necesario para instalar dependencias)](https://git-scm.com/download/win)
+
+
 ### Install global
 ```
 $ npm install -g stylus
