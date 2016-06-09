@@ -7,7 +7,8 @@
   $scope.template = {'nav': 'templates/menu-nav.tpl.html',
                     'step1': 'templates/listado.tpl.html',
                     'step2': 'templates/detalles.tpl.html',
-                    'step3': 'templates/plan-pagos.tpl.html'};
+                    'step3': 'templates/plan-pagos.tpl.html',
+                    'step4': 'templates/inscripcion.tpl.html'};
  
     /*************LEER JSON************/
   
@@ -34,6 +35,19 @@
 
             }, function(res){
               $scope.detalle = [{name: 'Error!! ' + res.status}];
+            });
+    /**********************************/
+
+     /*************LEER JSON - Obtener usuario************/
+  
+         $scope.alumnos = [];
+          $http.get('propuestas.json')
+            .then(function(res){
+              $scope.alumnos = res.data.alumnos;
+               console.log($scope.alumnos[0]);
+
+            }, function(res){
+              $scope.alumnos = [{name: 'Error!! ' + res.status}];
             });
     /**********************************/
 }
