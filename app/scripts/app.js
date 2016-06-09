@@ -8,13 +8,11 @@
    
     $routeProvider
       .when('/', {
-        templateUrl: 'templates/listado.tpl.html',
-        controller: 'Step1Ctrl'
+        templateUrl: 'templates/menu-nav.tpl.html',
+        controller: 'WizardCtrl'
       })
-      .when('/detalle/:id', {
-        templateUrl: 'templates/detalles.tpl.html',
-        controller: 'Step2Ctrl'
-      })
+  
+     
      
 
       .otherwise({ reditrectTo : '/' });
