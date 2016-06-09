@@ -11,3 +11,36 @@
 	border:1px solid #f1f1f1;
 	margin-bottom: 10px;
 }
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	color:#363F45;
+}
+h3{
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.detalle-titulo{
+	background: #00BCD4;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+}
+
+.detalle-sidebar{
+  /*background: #00BCD4;*/
+}
+
+.detalle-sidebar img{
+	/*margin-top: 40px;*/
+}
+
+.detalle-destacado{
+	background: #00BCD4;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+	font-family: 'Raleway', sans-serif !important;
+
+}

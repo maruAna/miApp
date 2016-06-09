@@ -1,0 +1,50 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="shadow-z-1 fondo-blanco margin-top-20">
+				<h3 class="detalle-titulo">{{propuestas[0].titulo}}</h3>
+				<hr>
+				<div class="row">
+					<div class="col-md-4">
+					  <div class="detalle-sidebar">
+						<h4 class="detalle-destacado">Información</h4>
+
+						<img src="{{propuestas[0].imagen}}" alt="" class="img-responsive">
+						<p>{{propuestas[0].descripcion}}</p>
+						<hr>
+						<h4 class="detalle-destacado">datos</h4>
+						<ul class="list-datos">
+							<li><strong>Total de Materias:</strong> {{propuestas[0].cant_materias}}</li>
+							<li><strong>Duracion:</strong> {{propuestas[0].duracion}}</li>
+							<li><strong>Cantidad de horas:</strong> {{propuestas[0].horas_cursado}} horas</li>
+							
+						</ul>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h4 class="detalle-destacado">Plan de estudio</h4>
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Nombre de la materia</th>
+							<th>Año</th>
+							<th>Docente</th>
+							<th>turno</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="plan in propuestas[0].plan_de_estudio">
+							<td>{{plan.nombre}}</td>
+							<td>{{plan.anio}}</td>
+							<td>{{plan.docente}}</td>
+							<td>{{plan.turno}}</td>
+						</tr>
+					</tbody>
+				</table>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>

@@ -12,15 +12,14 @@
 			  	<!-- contenido -->
 			  	<div class="col-md-10">
 			  	<!-- titulo -->
-			  		<h3></h3>
+			  		<h3>{{propuesta.titulo}}</h3>
 			  	<!-- descripcion -->
-			  	<p>{{propuesta.cant_materias}}</p>
-			  	<p ng-repeat="plan in propuesta.plan_de_estudio">{{plan.anio}} - {{plan.docente}}</p>
+			  	<p>{{propuesta.descripcion}}</p>
 			  	<!-- planes de pago -->
-			  	<a href="" class="btn btn-info">Contado: $1500</a>
-			  	<a href="" class="btn btn-success">12 coutos de $152</a>
-			  	<a href="" class="btn btn-primary">10 cutas de $200</a>
-			  	<a href="" class="btn btn-warning">Más detalles</a>
+			  	<a href="#" class="btn btn-info">{{propuesta.planes_de_pago[0]}}</a>
+			  	<a href="#" class="btn btn-success">{{propuesta.planes_de_pago[1]}}</a>
+			  	<a href="#" class="btn btn-primary">{{propuesta.planes_de_pago[2]}}</a>
+			  	<a href="#/detalle/{{propuesta.id}}" class="btn btn-warning">Más detalles</a>
 			  	</div>
 			  </div>
 			</div>	

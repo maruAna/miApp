@@ -11,6 +11,10 @@
         templateUrl: 'templates/listado.tpl.html',
         controller: 'Step1Ctrl'
       })
+      .when('/detalle/:id', {
+        templateUrl: 'templates/detalles.tpl.html',
+        controller: 'Step2Ctrl'
+      })
      
 
       .otherwise({ reditrectTo : '/' });
