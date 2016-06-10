@@ -96,11 +96,17 @@ h3{
 	background: #f1f1f1;
 }
 
+.contado{
+	padding: 10px;
+	border: 2px dashed #CDDC39;
+	text-align: center;
+	margin:20px auto;
+}
 .border-right{
 	border-right: 1px solid #f1f1f1;
 	padding:20px;
 }
-.board .nav-tabs { position: relative; /* border-bottom: 0; */ /* width: 80%; */ margin: 40px auto; margin-bottom: 0; box-sizing: border-box; } .board > div.board-inner{ background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png); background-size: 30%; } p.narrow{ width: 60%; margin: 10px auto; } 
+.board .nav-tabs { position: relative; /* border-bottom: 0; */ /* width: 80%; */ margin: 0 auto; margin-bottom: 0; box-sizing: border-box; } .board > div.board-inner{ background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png); background-size: 30%; } p.narrow{ width: 60%; margin: 10px auto; } 
 
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus 

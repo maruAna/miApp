@@ -2,7 +2,7 @@
   'use strict';
 
 // Controlador
-  function WizardCtrl($scope,$http, $routeParams) {
+  function WizardCtrl($scope,$http) {
 
   $scope.template = {'nav': 'templates/menu-nav.tpl.html',
                     'step1': 'templates/listado.tpl.html',
@@ -50,6 +50,60 @@
               $scope.alumnos = [{name: 'Error!! ' + res.status}];
             });
     /**********************************/
+
+
+
+    /*****************SELECCIONAR SEDE********************/
+
+    $scope.tuc = 'btn-warning';
+    $scope.sierra = 'btn-default';
+
+    $scope.ElegirSede = function(sede)
+    {
+        if(sede == 'tuc')
+        {
+           $scope.tuc = 'btn-warning';
+    $scope.sierra = 'btn-default';
+        }
+        else
+        {
+           $scope.tuc = 'btn-default';
+            $scope.sierra = 'btn-warning';
+        }
+    }
+
+    /****************PAgos*******************/
+  
+
+  $scope.tab = {
+    'listado':'sad',
+    'detalle':'sad'
+  };
+  
+      
+      $scope.getDetalles = function(){
+
+    // angular.element('listado').data('toggle','');
+          $scope.tab = {
+            'listado':'sdfds',
+            'detalle':'sad'
+          }
+          console.log($scope.tab);
+      }
+     
+      
+   $scope.activeTab = 1,
+
+    /***************************************/
+   $scope.Tab = function(tab){
+     
+      $scope.activeTab = tab;
+        console.log(tab);
+     
+
+   }
+
+    /*********************************/
 }
 
 
