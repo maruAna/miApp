@@ -16,44 +16,46 @@
 		<legend>Datos de acceso</legend>
 			<div class="form-group">
 				<label for="">DNI</label>
-				<input type="text" class="form-control" placeholder="Ingrese su dni sin puntos" value="{{alumnos[0].nombre}}">	
+				<input type="text" class="form-control" ng-model="user.dni" placeholder="Ingrese su dni sin puntos" ng-keyup="getDatos(e)" >	
+				
 		</div>
 		<div class="form-group">
-				<label for="">Contraseña</label>
-				<input type="password" class="form-control" placeholder="*****">	
+				<!-- <label for="">Contraseña</label> -->
+				<!-- <input type="password" class="form-control" ng-model="user.pass" placeholder="*****">	 -->
 		</div>
 		</div>
 			<div class="col-md-4 border-right">
 			<legend>Datos de Personales</legend>
 			<div class="form-group">
 				<label for="">Nombre</label>
-				<input type="text" class="form-control" value="{{alumnos[0].nombre}}">	
+				<input type="text" class="form-control" ng-model="user.nombre" value="user.nombre" >	
 		</div>
 		<div class="form-group">
 				<label for="">Apellido</label>
-				<input type="text" class="form-control" value="{{alumnos[0].apellido}}">	
+				<input type="text" class="form-control" ng-model="user.apellido" value="user.apellido">	
 		</div>
 		<div class="form-group">
 				<label for="">Correo</label>
-				<input type="mail" class="form-control" value="rauldiaz@gmail.com">	
+				<input type="mail" class="form-control" ng-model="user.correo" value="user.correo">	
 		</div>
 		<div class="form-group">
 				<label for="">Teléfono</label>
-				<input type="text" class="form-control" value="{{alumnos[0].telefono}}" >	
+				<input type="text" class="form-control" ng-model="user.tel" value="user.tel" >	
 		</div>
 		<div class="form-group">
 				<label for="">Dirección</label>
-				<input type="mail" class="form-control" placeholder="" value="{{alumnos[0].domicilio}}">	
+				<input type="mail" class="form-control" ng-model="user.dir" placeholder=""  value="user.dir"	>
 		</div>
 		<div class="form-group">
 				<label for="">Localidad</label>
-				<input type="mail" class="form-control" placeholder="" value="{{alumnos[0].localidad}}">	
+				<input type="mail" class="form-control" ng-model="user.localidad" placeholder="" value="user.localidad" >	
 		</div>
 			
 		</div>
 			<div class="col-md-4">
 			<legend>Foto de Perfil</legend>
-			<img src="{{alumnos[0].foto}}" alt="" class="img-responsive">
+			<!-- rc="" -->
+			<img alt="" src="{{alumnos[0].foto}}" class="img-responsive" ng-show="hayfoto">
 			<hr>
 			
 		</div>

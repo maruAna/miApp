@@ -104,6 +104,33 @@
    }
 
     /*********************************/
+    $scope.hayfoto = false;
+    $scope.user = {
+      "nombre":'',
+      "apellido": '',
+      "correo":'',
+      "tel":'',
+      "dir":'',
+      "localidad":'',
+      "foto":''
+    }
+    
+    $scope.getDatos = function(){
+
+ if(13 == 13)
+        {
+         $scope.user = {
+                      "nombre":'Raul',
+                      "apellido": 'Diaz Solis',
+                      "correo":'raul@gmail.com',
+                      "tel":'4526',
+                      "dir":'Savedra 129',
+                      "localidad":'Tucumán',
+                      "foto":'https://avatars3.githubusercontent.com/u/2073511?v=3&s=460'
+                    };
+                    $scope.hayfoto = true;
+                  }
+    }
 }
 
 
