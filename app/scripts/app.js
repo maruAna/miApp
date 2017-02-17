@@ -7,34 +7,23 @@
   function config ($routeProvider) {
    
     $routeProvider
-      .when('/listado', {
-        templateUrl: 'templates/listado.tpl.html',
-        controller: 'WizardCtrl'
+      .when('/', {
+        templateUrl: 'templates/marielita.tpl.html',
+        controller: 'marielaCtrl'
       })
-       .when('/detalle', {
-        templateUrl: 'templates/detalles.tpl.html',
-        controller: 'WizardCtrl'
-      })
-      .when('/inversion', {
-        templateUrl: 'templates/plan-pagos.tpl.html',
-        controller: 'WizardCtrl'
-      })
-         .when('/alumno', {
-        templateUrl: 'templates/inscripcion.tpl.html',
-        controller: 'WizardCtrl'
-      })
+      
   
      
      
 
-      .otherwise({ reditrectTo : '/listado' });
+      .otherwise({ reditrectTo : '/' });
 
   } 
 
 
 
   angular
-    .module('wizard', ['ngRoute','wizard.controllers','ui.bootstrap'])
+    .module('marielaPrueba', ['ngRoute','marielaPrueba.controllers','ui.bootstrap'])
     .config(config);
 
    
